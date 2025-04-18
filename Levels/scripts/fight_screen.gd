@@ -1,4 +1,4 @@
-extends Control
+class_name Fight_Screen extends Control
 
 var player_data: PlayerStats	
 
