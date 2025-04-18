@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://blknf2k8eb0d4"]
+
+[ext_resource type="Texture2D" uid="uid://bobvltkn0w2wf" path="res://Sprites/Backgrounds/BackMenu3.png" id="1_o2to7"]
+[ext_resource type="Script" uid="uid://chi1uiojxkk5f" path="res://Windows/window_default.gd" id="2_qxubb"]
+
+[node name="WindowDefault" type="NinePatchRect"]
+size_flags_horizontal = 3
+texture = ExtResource("1_o2to7")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+script = ExtResource("2_qxubb")

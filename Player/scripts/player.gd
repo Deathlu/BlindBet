@@ -82,5 +82,5 @@ func _on_area_entered(area: Area2D) -> void:
 		
 func start_battle() -> void:
 	# Загружаем сцену боя
-	LevelManager.load_new_level("res://Levels/Area01/battle.tscn","LevelTransition",Vector2(40,20))
+	LevelManager.load_new_level("res://Levels/Area01/fight_screen.tscn","LevelTransition",Vector2(40,20))
 	
